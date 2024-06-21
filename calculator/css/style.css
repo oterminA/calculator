@@ -1,0 +1,47 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    background-color: beige;
+    margin: 50px;
+    padding: 20px;
+    width: 380px;
+    border: 2px solid pink;
+    box-shadow: 1px 1px 20px rgb(233, 233, 233);
+    border-radius: 30px;
+    height: 480px;
+
+}
+
+.input-textfield {
+    width: 360px;
+    border-radius: 8px;
+    height: 60px;
+    color: olivedrab;
+    font-size: 40px;
+    text-align: right;
+    font-family:monospace;
+}
+
+input:not(.input-textfield) {
+    margin: 15px 10px;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(253, 238, 238);
+}
+
+.input-color {
+    background-color: rgb(209, 198, 198);
+}
+
+.input-color-red {
+    background-color: red;
+}
